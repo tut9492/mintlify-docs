@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mintlify Starter Kit",
+  "name": "AGNT",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#FF006E",
+    "light": "#FF2D6F",
+    "dark": "#D1005C"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -16,19 +16,32 @@
           "index",
           "quickstart"
         ]
+      },
+      {
+        "group": "Your Agent",
+        "pages": [
+          "agent"
+        ]
+      },
+      {
+        "group": "Wallet & Commerce",
+        "pages": [
+          "wallet",
+          "launch"
+        ]
       }
     ],
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "Open AGNT",
+          "href": "https://agnt.social",
+          "icon": "robot"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "X",
+          "href": "https://x.com/Tuteth_",
+          "icon": "x-twitter"
         }
       ]
     }
@@ -38,16 +51,10 @@
     "dark": "/logo/dark.svg"
   },
   "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.mintlify.com"
+      "label": "Open AGNT",
+      "href": "https://agnt.social"
     }
   },
   "contextual": {
@@ -56,17 +63,13 @@
       "view",
       "chatgpt",
       "claude",
-      "perplexity",
-      "mcp",
-      "cursor",
-      "vscode"
+      "mcp"
     ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/Tuteth_",
+      "website": "https://agnt.social"
     }
   }
 }
