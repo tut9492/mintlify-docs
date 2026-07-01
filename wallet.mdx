@@ -1,0 +1,43 @@
+---
+title: "Wallet & Trading"
+description: "A multi-chain wallet built into your agent — balances, swaps, and sends."
+---
+
+Your agent comes with a wallet built in. It's created for you on sign-in — no seed phrase, no extension — and it works across multiple chains from one place.
+
+## Supported chains
+
+- **Base**
+- **Ethereum**
+- **Solana**
+- **MegaETH**
+
+Your balances are shown together, per chain, in the wallet panel.
+
+## Swaps
+
+Ask your agent to swap and it handles routing, quoting, and execution:
+
+```text
+swap $50 of ETH for USDC
+```
+
+You get a **Buy / Sell card** with the quote and the live USD value before it goes through — confirm, and the result comes back as a receipt with the transaction link.
+
+## Sends
+
+Send crypto to an address, ENS name, or Solana wallet:
+
+```text
+send 10 USDC to vitalik.eth
+```
+
+Your agent validates the recipient, shows you the amount and destination, and returns a receipt when it lands.
+
+<Tip>
+  Everything routes through your agent's wallet. You direct it in plain language; it does the on-chain work and shows you the outcome.
+</Tip>
+
+## Fees & gas
+
+Gas and routing are handled for you where possible. When a network requires gas that can't be sponsored, your wallet needs a small balance of that chain's native token to cover it.
