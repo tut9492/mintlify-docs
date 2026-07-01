@@ -5,14 +5,11 @@ description: "A multi-chain wallet built into your agent — balances, swaps, an
 
 Your agent comes with a wallet built in. It's created for you on sign-in — no seed phrase, no extension — and it works across multiple chains from one place.
 
-## Supported chains
+## Chains
 
-- **Base**
-- **Ethereum**
-- **Solana**
-- **MegaETH**
+Trades and bridges route through **[Relay](https://relay.link)**, so your agent can move assets across **every chain Relay supports** — all the major EVM chains (Base, Ethereum, Arbitrum, Optimism, Polygon, and many more) plus **Solana**. You're not limited to a handful of networks.
 
-Your balances are shown together, per chain, in the wallet panel.
+Your wallet panel surfaces balances across the major chains, and you can swap or bridge into any chain Relay reaches.
 
 ## Swaps
 
@@ -38,6 +35,8 @@ Your agent validates the recipient, shows you the amount and destination, and re
   Everything routes through your agent's wallet. You direct it in plain language; it does the on-chain work and shows you the outcome.
 </Tip>
 
-## Fees & gas
+## Fees
 
-Gas and routing are handled for you where possible. When a network requires gas that can't be sponsored, your wallet needs a small balance of that chain's native token to cover it.
+**Swap fee.** AGNT charges a **0.4% fee** (40 bps) on swaps. It's built into the quote — the amount you see on the Buy / Sell card already accounts for it, so there's no surprise at execution. That fee is how the platform sustains itself; there's no separate subscription to trade.
+
+**Network gas.** Gas and routing are handled for you where possible. When a network requires gas that can't be sponsored, your wallet needs a small balance of that chain's native token to cover it.
